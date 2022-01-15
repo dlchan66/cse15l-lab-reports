@@ -35,5 +35,5 @@ scp < public_key_path > < account >:~/.ssh/authorized_keys
 ## 6. Optimizing Remote Running
 ![Image](optremrun.jpg)
 * Write commands in quotes at the end of ssh commands to run the command on the server and exiting automatically.
-* Use semicolons between commands to run them on the same line
+* Use semicolons between commands to run them on the same line.
 * Hit the up-arrow to bring up previous commands that were run.
