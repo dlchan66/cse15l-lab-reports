@@ -9,7 +9,9 @@
 ![Image](remoteconnect.png)
 * Find your course account from  [here](https://sdacs.ucsd.edu/~icc/index.php).
 * In the VSC terminal, run:
+```
 ssh < account >
+```
 * Type yes if it is your first time connecting to the server.
 * Type your password.
 * Your terminal should look like the picture in this step.
@@ -24,18 +26,24 @@ ssh < account >
 ![Image](movefilescp.png)
 * The command, scp, is run and copies files from the client to the server.
 * In the terminal, run:
+```
 scp < file > < account >:~/
+```
 * Enter your password and the file is now on and can be run from the server.
 
 ## 5. Setting an SSH Key
 ![Image](sshkey.png)
 * In order to not have to enter your password when connecting to the server, we can make ssh keys.
 * In the terminal, run:
+```
 ssh-keygen
+```
 * Enter the file and any passphrase.
 * Make a .ssh directory on the server.
 * In the terminal, run:
+```
 scp < public_key_path > < account >:~/.ssh/authorized_keys
+```
 * Now, you can ssh and scp without typing a password.
 
 ## 6. Optimizing Remote Running
