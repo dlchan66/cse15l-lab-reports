@@ -19,7 +19,7 @@ $ ssh <account>
 ## 3. Trying Some Commands
 ![Image](trycomms.png)
 * Try to run some commands on both the client (your computer) and the server (remote).
-* Some commands to try are: `cd`, `ls`, `cp`, and `cat`.
+* Some commands to try are: `cd`(change directory), `ls`(list files), `cp`(copy), and `cat`(read and write files).
 * Example results from these commands are shown in the picture in this step.
 
 ## 4. Moving Files with scp
