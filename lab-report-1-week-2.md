@@ -10,7 +10,7 @@
 * Find your course account from  [here](https://sdacs.ucsd.edu/~icc/index.php).
 * In the VSC terminal, run:
 ```
-$ ssh < account >
+$ ssh <account>
 ```
 * Type yes if it is your first time connecting to the server.
 * Type your password.
@@ -27,7 +27,7 @@ $ ssh < account >
 * The command, `scp`, is run and copies files from the client to the server.
 * In the terminal, run:
 ```
-$ scp < file > < account >:~/
+$ scp <file> <account>:~/
 ```
 * Enter your password and the file is now on and can be run from the server.
 
@@ -42,7 +42,7 @@ $ ssh-keygen
 * Make a .ssh directory on the server.
 * In the terminal, run:
 ```
-$ scp < public_key_path > < account >:~/.ssh/authorized_keys
+$ scp <public_key_path> <account>:~/.ssh/authorized_keys
 ```
 * Now, you can ssh and scp without typing a password.
 
