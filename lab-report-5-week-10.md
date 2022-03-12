@@ -28,6 +28,6 @@ For this test, ***my*** implementation is correct.
 #### Expected output:
 ![Image](prev1.png)
 As you can see, the expected output is an image, not a link. My implementation correctly produces no links. However, the provided implementation outputs the link, `train.jpg` when it isn't supposed to output anything.
-#### My implementation bug:
+#### Provided implementation bug:
 ![Image](code1.png)
 The problem in the provided implementation is that it doesn't check for an exclamation mark (!) before `nextOpenBracket`. An exclamation mark there would indicate the presence of an image, and not a link. Since the code doesn't check for images, it ignores the exclamation mark and ends up adding a link to the output when no links are actually present.
